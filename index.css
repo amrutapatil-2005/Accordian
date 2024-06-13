@@ -1,0 +1,103 @@
+/* body{
+  background-color: grey;
+  text-align: center;
+  justify-content: center;
+}
+button{
+  font-size: 30px;
+ border-radius: 20px;
+ margin-left: 180px;
+  background-color: aqua;
+
+}
+button:hover{
+  background-color: red;
+}
+h3{
+  color: black;
+  font-size: 32px;
+}
+p{
+  font-size: 25px;
+}
+.que{
+  height:250px;
+  width: 500px;
+  background-color: aqua;
+}
+.accordian{
+  height:250px;
+  width:500px;
+  border:2px solid black;
+  text-align: center;
+}
+.accordian button{
+ 
+  margin-top: 14px;
+  margin-right: 10px;
+  border:  none;
+  background-color: transparent;
+  cursor: pointer;
+  padding:5px;
+}
+
+
+
+
+ */
+
+.accordian {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.que {
+  background-color: skyblue;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+.que button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.que button:hover {
+  background-color: #0056b3;
+}
+
+/* Question text styles */
+.que h3 {
+  flex-grow: 1;
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Answer text styles */
+.que p {
+display: inline;
+  margin: 10px 0 0 40px;
+  font-size: 1em;
+  color: #666;
+}
+
+
+
+
